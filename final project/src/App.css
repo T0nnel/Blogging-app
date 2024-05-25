@@ -1,0 +1,388 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family: Wotfard, sans-serif;
+}
+.header{
+  width:100%;
+  height: 70px;
+  background-color:transparent;
+}
+.header ul {   
+  padding: 2% 2% 6% 2%;
+  text-align: right;
+  flex: 1;
+}
+.header ul li{
+  margin-right:10px;
+  display: inline-block;
+  list-style: none;
+  padding: 20px 50px;
+}
+.header ul li a{
+  text-align: right;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  transition: 1s;
+}
+.header ul li a:hover{
+  text-decoration: underline;
+  color: white;
+  transition: 1.5s
+}
+.header1{
+  width:100%;
+  height: 70px;
+  background-color:transparent;
+}
+.header1 ul {   
+  padding: 2% 2% 6% 2%;
+  text-align: right;
+  flex: 1;
+}
+.header1 ul li{
+  margin-right:10px;
+  display: inline-block;
+  list-style: none;
+  padding: 20px 50px;
+}
+.header1 ul li a{
+  text-align: right;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  transition: 1.5s;
+}
+.header1 ul li a:hover{
+  text-decoration: underline;
+  color: white;
+  transition: 1.5s
+}
+.bghead{
+  min-height: 100vh;
+  width:100%;
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./images/bg2.png);
+  background-size: cover;
+  background-position: center;
+  position:absolute;
+  transition: 1.5s;
+}
+.bghead h1{
+  font-size: 60px;
+  margin-top: 50px;
+  margin-left: 60px;
+  color: rgb(249, 249, 249);
+}
+.bghead h3{
+  color:rgb(249, 249, 249);
+  margin-top: 30px;
+  margin-left: 60px;
+}
+.bghead button {
+  top:80% ;
+  left:10% ;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color: goldenrod;
+  border: none;
+  border-radius: 10px; 
+  transition: .5s;
+  box-shadow:0 0 3px;
+}
+.bghead button:hover{
+  background-color: white;
+  color: goldenrod;
+  transition: .5s
+}
+.bghead button a{
+  text-decoration: none;
+  color: black;
+} 
+.img1{
+  border-radius: 10px;  
+  top:60% ;
+  left:70% ;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  width: 300px;
+  border-radius: 10px;
+}
+.img2{
+  border-radius: 10px;  
+  top:55% ;
+  left:85% ;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  width: 300px;
+  border-radius: 10px;
+}
+.img4{
+  border-radius: 10px;  
+  top:90% ;
+  left:60% ;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  width:70px;
+} 
+.img3{
+  border-radius: 10px;  
+  top:25% ;
+  left:68% ;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  width:50px;
+} 
+.images1{
+  width: 250px;
+  top:35% ;
+  left:80% ;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 10px;
+}
+.images2{
+  width: 250px;
+  top:57% ;
+  left:65% ;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 10px;
+}
+.images3{
+  width: 350px;
+  top:70% ;
+  left:80% ;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  border-radius: 10px;
+}
+.login{
+  background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./images/b.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+.container{
+  width: 350px;
+  height: 440px;
+  top:50% ;
+  left:25% ;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./images/b.png);
+  position: absolute;
+  background-position:left;
+  box-shadow: 0 0 5px ;
+  place-content: center;
+  border-radius: 10px;
+  padding: 35px;
+  border: 1px solid rgb(255, 251, 251);
+}
+input{
+  width: 100%;
+  justify-content: space-around;
+  border-radius:10px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid black;
+  background-color: rgb(251, 251, 251);
+  display: inline-block;
+  box-sizing: border-box;
+}
+label{
+  color: orange;
+}
+ .container h1{
+  color:orange;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+input[type=submit]{
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+  background-color: orange;
+  transition: .7s;
+  margin-top: 10px;
+}
+input[type=submit]:hover{
+  box-shadow:10px 10px 0px white;
+  top:-5px;
+  left: -5px;
+  transition: .7s;
+}
+.container p{
+  color: white;
+  margin-top: 10px;
+  transition: .8s;
+}
+.container p:hover{
+  color: orange;
+  transition: .8s;
+}
+.storage{
+  width: 100%;
+  padding:10px;
+  justify-content: space-around;
+  display: flex;
+  
+}
+ .storage img{
+  width: 48%;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+.storage h1{
+  font-size:50px;
+  margin-bottom: 30px;
+}
+.storage p{
+  font-size: 20px;
+  line-height: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px){
+  * {
+    margin: 0 !important;
+}
+  .bghead{
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./images/bg2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position:absolute;
+  }
+  .bghead h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin-right: 60px;
+    color: rgb(249, 249, 249);
+    text-align: center;
+  }
+  .bghead h3{
+    margin-top: 40px;
+    margin-right:50px ;
+    text-align: center;
+    color:rgb(249, 249, 249);
+  }
+  .header ul {   
+    padding:10px;
+    text-align: center;
+    box-shadow: 0 2.982px 7.456px rgba(0,0,0,0.3) ;
+  }
+  .header ul li{
+    margin-right:10px;
+    display:inline-block;
+    list-style: none;
+    padding: 10px;
+  }
+  .header1 ul li a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    transition: 1.5s;
+  }
+  .header ul li a{
+    text-align: right;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    transition: 1s;
+  }
+  .img4{
+    border-radius: 10px;  
+    top:30% ;
+    left:90% ;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width:70px;
+  } 
+  .img3{
+    border-radius: 10px;  
+    top:90% ;
+    left:10% ;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width:50px;
+  } 
+  .img1{
+    display:none ;
+  }
+  .img2{
+    display: none;
+  }
+  .bghead button {
+    top:72% ;
+    left:50% ;
+    justify-content: center;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding: 18px 33px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 10px; 
+    transition: .5s
+  }
+  .storage{
+    display: block;
+    text-align: center;
+    overflow:hidden;
+    word-wrap: break-word;
+  }
+   .storage img{
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .storage h1{
+    font-size:30px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin: 10px;
+  }
+  .storage p{
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+  }
+}
