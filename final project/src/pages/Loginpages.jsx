@@ -24,7 +24,10 @@ function Loginpages() {
 
   <input type="submit" value="Submit"/>
 </form>
-       <p><a href=""></a>Sign In</p>
+  <div className="bts">
+       <p><a href="">Sign In</a></p>
+       <p><a href="/">Back</a></p>
+       </div>
             </div>
         </div>
     )

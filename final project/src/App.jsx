@@ -3,6 +3,7 @@ import './App.css'
 
 function App() {
   return(
+    <>
     <div class="bghead">
     <div class="header1">
         <ul>
@@ -20,9 +21,14 @@ function App() {
         and impact to
         drive performance.
         Structured,<br/> objective, always-on feedback, goals and career development <br/>to accelerate business impact.</h3>
-        <button><a href="">Sign Up</a></button>
-    
+        <button><a href="/login">Sign Up</a></button>
+    </div>
+    <div className='second'>
+      <h1>Foster a Culture Of Continuous Growth and Learning</h1>
+      <p>Pando makes career progression accessible so employees can continuously level-up and track their impact as they grow.</p>
+      <img src="./images/Screenshot_2024-05-26_033645-removebg-preview.png" alt="image" className="growth" />
 </div>
+    </>
 )}
 
 export default App
